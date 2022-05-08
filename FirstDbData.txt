@@ -1,0 +1,18 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i
+dati riguardanti delle auto usate messe in vendita da un concessionario
+
+Marca                   VARCHAR(17)     
+modello                 VARCHAR(17)
+prezzo                  MEDIUMINT
+anno                    YEAR
+anno di Produzione      YEAR
+Chilometraggio          MEDIUMINT
+posti                   TINYINT   
+porte                   TINYINT
+alimentazone            VARCHAR(17)
+tipo di cambio          VARCHAR(11)
+colore                  VARCHAR(30)
+potenza                 TINYINT
+cilindrata              TINYINT
+condizioni              VARCHAR(100) //le condizioni possono essere di piccola descrizione, 
+                                    ma se si entra nel dettaglio ovviamente si ha un testo piu lungo
